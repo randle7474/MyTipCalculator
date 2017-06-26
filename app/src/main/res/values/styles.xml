@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Two custom themes -->
+
+    <style name="AppTheme" parent="AppTheme.windowBackground">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Theme customizations NOT specific to a particular API -->
+    </style>
+    <style name="AppTheme.windowBackground">
+        <item name="android:background">#98FB98</item>
+        <item name="android:color">@color/colorPrimary</item>
+    </style>
+
+    <!-- Five custom styles -->
+    <style name="TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Spinner" parent="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="DropDownText" parent="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="EditText" parent="@style/TextView" />
+
+    <style name="RadioButton" parent="@style/TextAppearance">
+       <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.Label">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="PaddedWidget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="PaddedWidget.Indent">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+</resources>
